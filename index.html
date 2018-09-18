@@ -1,5 +1,16 @@
 ---
 layout: default
-title: Index
+title: Home
+id: home
+script: photos.js
 ---
 
+<div class="pictures-container">
+    {% for picture in site.data.pictures %}
+    <div class="item"
+         data-w="{{ picture.width }}" data-h="{{ picture.height }}">
+        <img class="item-img"
+             src="/images/{{ picture.title }}">
+    </div>
+    {% endfor %}
+</div>

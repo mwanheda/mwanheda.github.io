@@ -1,7 +1,8 @@
+<header class="header">
 <nav class="nav">
     <ul class="nav-list">
         {% for cat in site.data.categories %}
-        {% if page.url == cat.url %}
+        {% if page.id == cat.id %}
         <li class="nav-item current">
             <a class="nav-link" href="{{ cat.url }}">{{ cat.title }}</a>
         </li>
@@ -13,3 +14,6 @@
         {% endfor %}
     </ul>
 </nav>
+
+<h1 class="site-title">Méline Querré</h1>
+</header>

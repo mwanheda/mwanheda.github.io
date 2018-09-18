@@ -5,10 +5,11 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body {
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Helvetica Neue", sans-serif;
 }
@@ -21,7 +22,19 @@ ul {
     list-style: none;
 }
 
-/* Navigation */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Header and navigation */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
 
 .nav-list {
     display: flex;
@@ -34,6 +47,14 @@ ul {
     font-weight: 300;
     letter-spacing: .1em;
     text-transform: uppercase;
+}
+
+.nav-item:first-child {
+    padding-left: 0;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
 }
 
 .nav-link {
@@ -54,7 +75,27 @@ ul {
     transition: opacity .2s;
 }
 
-.current.nav-link::after,
+.current .nav-link::after,
 .nav-link:hover::after {
     opacity: 1;
+}
+
+.site-title {
+    letter-spacing: .1em;
+    text-transform: lowercase;
+}
+
+/* Photos */
+
+.pictures-container .item {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-color: #f1f2f3;
+    box-sizing: content-box;
+}
+
+.item img {
+    display: block;
+    width: 100%;
 }
