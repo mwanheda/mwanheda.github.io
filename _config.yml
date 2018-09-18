@@ -8,5 +8,3 @@ url: "https://mwanheda.github.io"  # absolute url
 include: ["_pages"]  # include more files
 kramdown:
   input: GFM
-
-theme: jekyll-theme-cayman
