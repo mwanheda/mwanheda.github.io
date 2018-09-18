@@ -1,0 +1,15 @@
+- title: Vidéos
+  url: /videos
+  id: videos
+
+- title: Photos
+  url: /photos
+  id: photos
+
+- title: À propos
+  url: /about
+  id: about
+
+- title: Contact
+  url: /contact
+  id: contact

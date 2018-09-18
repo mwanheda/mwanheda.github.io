@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Index
+title: About
 ---
 

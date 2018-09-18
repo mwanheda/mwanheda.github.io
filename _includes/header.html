@@ -1,13 +1,15 @@
 <nav class="nav">
     <ul class="nav-list">
-        <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+        {% for cat in site.data.categories %}
+        {% if page.url == cat.url %}
+        <li class="nav-item current">
+            <a class="nav-link" href="{{ cat.url }}">{{ cat.title }}</a>
         </li>
+        {% else %}
         <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href="{{ cat.url }}">{{ cat.title }}</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-        </li>
+        {% endif %}
+        {% endfor %}
     </ul>
 </nav>
