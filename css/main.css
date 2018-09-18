@@ -27,6 +27,42 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
+/* Framework */
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6 {
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+
+.heading-1 {
+    font-size: 2.5rem;
+}
+
+.heading-2 {
+    font-size: 2rem;
+}
+
+.heading-3 {
+    font-size: 1.75rem;
+}
+
+.heading-4 {
+    font-size: 1.5rem;
+}
+
+.heading-5 {
+    font-size: 1.25rem;
+}
+
+.heading-6 {
+    font-size: 1rem;
+}
+
 /* Header and navigation */
 
 .header {
@@ -81,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
+    font-weight: 300;
     letter-spacing: .1em;
     text-transform: lowercase;
 }
@@ -98,4 +135,14 @@ h1, h2, h3, h4, h5, h6 {
 .item img {
     display: block;
     width: 100%;
+}
+
+/* Page */
+
+.page-content {
+    padding: 5em 10em;
+}
+
+.page-content p {
+    font-weight: 300;
 }
