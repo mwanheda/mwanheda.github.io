@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: À propos
 permalink: /about
 id: about
 ---
 
-Some lines about me.
+Quelques lignes à propos de moi.
