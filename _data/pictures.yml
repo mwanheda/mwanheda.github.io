@@ -1,3 +1,12 @@
+- title: smoke.jpg
+  width: 2730
+  height: 4096
+- title: lena.jpg
+  width: 4096
+  height: 2730
+- title: lena_bulles.jpg
+  width: 2730
+  height: 4096
 - title: colore_caen.jpg
   width: 1280
   height: 854
@@ -13,12 +22,6 @@
 - title: film.jpg
   width: 2000
   height: 3000
-- title: lena.jpg
-  width: 4096
-  height: 2730
-- title: lena_bulles.jpg
-  width: 2730
-  height: 4096
 - title: skate.jpg
   width: 2000
   height: 3000
@@ -28,9 +31,6 @@
 - title: skate03.jpg
   width: 2000
   height: 3000
-- title: smoke.jpg
-  width: 2730
-  height: 4096
 - title: surf.jpg
   width: 2730
   height: 4096

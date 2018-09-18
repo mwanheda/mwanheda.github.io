@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $('.pictures-container').flexImages({rowHeight: 300});
+    $('.pictures-container').flexImages({rowHeight: 500});
 });
