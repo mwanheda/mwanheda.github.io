@@ -82,37 +82,46 @@ h1, h2, h3, h4, h5, h6 {
 .hamburger::before,
 .hamburger::after {
     width: 28px;
+    height: 2px;
+    background-color: currentColor;
 }
 
 .hamburger {
     position: relative;
+    transition: background-color .2s .2s;
 }
 
 .hamburger::before,
 .hamburger::after {
     content: '';
     position: absolute;
-    height: 2px;
-    background-color: currentColor;
-    transition: transform .3s;
+    transition: top .3s .2s, transform .3s;
 }
 
 .hamburger::before {
-    top: -6px;
-    right: -3px;
+    top: -8px;
 }
 
 .hamburger::after {
-    top: 6px;
-    right: 3px;
+    top: 8px;
+}
+
+.active .hamburger {
+    background-color: transparent;
+}
+
+.active .hamburger::before,
+.active .hamburger::after {
+    top: 0;
+    transition: top .3s, transform .3s .2s;
 }
 
 .active .hamburger::before {
-    transform: translateX(-3px) translateY(6px) rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .active .hamburger::after {
-    transform: translateX(3px) translateY(-6px) rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .nav-list {
