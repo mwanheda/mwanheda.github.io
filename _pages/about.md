@@ -5,4 +5,4 @@ permalink: /about
 id: about
 ---
 
-Quelques lignes à propos de moi.
+Prochainement.

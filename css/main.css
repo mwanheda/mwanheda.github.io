@@ -95,8 +95,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     position: relative;
-    color: currentColor;
+    color: #888;
     text-decoration: none;
+    transition: color .3s;
 }
 
 .nav-link::after {
@@ -109,6 +110,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #222;
     opacity: 0;
     transition: opacity .3s;
+}
+
+.current .nav-link,
+.nav-link:hover {
+    color: currentColor;
 }
 
 .current .nav-link::after,

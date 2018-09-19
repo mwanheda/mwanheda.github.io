@@ -5,4 +5,4 @@ permalink: /contact
 id: contact
 ---
 
-Me contacter.
+Prochainement.

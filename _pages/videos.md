@@ -5,4 +5,4 @@ permalink: videos
 id: videos
 ---
 
-Prochainement mes prochaines vidéos.
+Prochainement.
