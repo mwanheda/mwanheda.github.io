@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     .nav {
         height: 0;
         overflow: hidden;
-        transition: height .3s;
+        transition: height .5s;
         order: 3;
     }
 
