@@ -4,14 +4,24 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 html {
     font-size: 14px;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Helvetica Neue", sans-serif;
+}
+
+.master {
+    flex: 1 0 auto;
 }
 
 /* Default parameters */
@@ -25,6 +35,14 @@ ul {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: 400;
+}
+
+a, a:visited {
+    color: #888;
+}
+
+a:hover {
+    color: currentColor;
 }
 
 /* Framework */
@@ -292,4 +310,37 @@ h1, h2, h3, h4, h5, h6 {
     .page-content {
         padding: 2em;
     }
+}
+
+/* Footer */
+
+.footer {
+    flex-shrink: 0;
+    padding: 5em 0 3em;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.social-item {
+    margin: 0 1em;
+}
+
+.social-link {
+    display: block;
+    width: 1.5em;
+    transition: opacity .3s;
+}
+
+.social-link:hover {
+    opacity: .5;
+}
+
+.social-link img {
+    width: 100%;
 }
