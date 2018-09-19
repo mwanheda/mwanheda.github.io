@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 .heading-4,
 .heading-5,
 .heading-6 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-weight: 200;
 }
 
@@ -286,4 +286,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-content p {
     font-weight: 300;
+}
+
+@media screen and (max-width: 800px) {
+    .page-content {
+        padding: 2em;
+    }
 }
