@@ -126,6 +126,7 @@ a:hover {
 
 .active .hamburger {
     background-color: transparent;
+    transition: background-color .2s;
 }
 
 .active .hamburger::before,
