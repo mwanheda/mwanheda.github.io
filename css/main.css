@@ -276,7 +276,7 @@ a:hover {
 }
 
 .pictures-container .item::after {
-    content: '— view —';
+    content: '— voir —';
     position: absolute;
     left: 50%;
     top: 50%;
