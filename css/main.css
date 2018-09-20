@@ -256,6 +256,13 @@ a:hover {
     cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+    .pictures-container .item {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
 .pictures-container .item img {
     position: relative;
     display: block;
