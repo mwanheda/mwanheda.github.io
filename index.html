@@ -9,8 +9,16 @@ script: photos.js
     {% for picture in site.data.pictures %}
     <div class="item"
          data-w="{{ picture.width }}" data-h="{{ picture.height }}">
-        <img class="item-img"
-             src="/images/pictures/{{ picture.title }}">
+        <img class="item-image"
+             src="/images/pictures/{{ picture.title }}" alt="{{ picture.alt }}">
+        <div class="item-layer"></div>
+        <div class="item-text">— voir —</div>
     </div>
     {% endfor %}
+</div>
+
+<div id="modal" class="modal">
+    <span id="modal-close" class="modal-close">&times;</span>
+    <img id="modal-image" class="modal-image" src="">
+    <div id="modal-caption" class="modal-caption"></div>
 </div>

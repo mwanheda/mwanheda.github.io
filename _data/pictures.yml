@@ -1,36 +1,48 @@
 - title: smoke.jpg
   width: 2730
   height: 4096
+  alt: Norbert Hardy
 - title: lena.jpg
   width: 4096
   height: 2730
+  alt: Léna
 - title: lena_bulles.jpg
   width: 2730
   height: 4096
+  alt: Léna
 - title: colore_caen.jpg
   width: 1280
   height: 854
+  alt: Colore Caen
 - title: colore_caen02.jpg
   width: 4096
   height: 2730
+  alt: Colore Caen
 - title: dime.jpg
   width: 2000
   height: 3000
+  alt: Skate
 - title: dime02.jpg
   width: 2000
   height: 3000
+  alt: Skate
 - title: film.jpg
   width: 2000
   height: 3000
+  alt: Skate
 - title: skate.jpg
   width: 2000
   height: 3000
+  alt: Skate
 - title: skate02.jpg
   width: 2000
   height: 3000
+  alt: Skate
 - title: skate03.jpg
   width: 2000
   height: 3000
+  alt: Skate
 - title: surf.jpg
   width: 2730
   height: 4096
+  alt: Surf
