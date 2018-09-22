@@ -18,9 +18,8 @@
 }
 
 .detail-content {
-    display: block;
+    display: table;
     margin-bottom: .5em;
-    width: fit-content;
     font-size: 1.5rem;
 }
 
