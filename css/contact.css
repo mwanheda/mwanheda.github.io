@@ -1,13 +1,18 @@
 .contact-details {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 800px;
+    font-weight: 300;
+}
+
+.contact-detail {
+    margin-bottom: 2rem;
 }
 
 .detail-title {
     margin-bottom: 1em;
     font-size: .8rem;
-    font-weight: 300;
     text-transform: uppercase;
     color: #888;
 }
@@ -17,7 +22,6 @@
     margin-bottom: .5em;
     width: fit-content;
     font-size: 1.5rem;
-    font-weight: 300;
 }
 
 a.detail-content {
@@ -33,4 +37,10 @@ a.detail-content::after {
     width: 100%;
     height: 1px;
     background-color: currentColor;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-details {
+        flex-direction: column;
+    }
 }
