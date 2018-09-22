@@ -11,7 +11,12 @@
     <meta property="og:image:type" content="image/png"/>
     <meta property="og:image:alt" content=""/>
 
-    <title>{{ page.title }} · {{ site.title }}</title>
+    <title>
+        {% if page.title %}
+        {{ page.title }} ·
+        {% endif %}
+        {{ site.title }}
+    </title>
 
     <link rel="icon" type="image/png" href=""/>
 
@@ -20,4 +25,5 @@
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/contact.css"/>
 </head>
