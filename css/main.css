@@ -300,12 +300,20 @@ a:hover {
     z-index: 2;
 }
 
-.pictures-container .item:hover .item-layer {
-    background-color: rgba(15, 15, 15, .5);
+@media screen and (min-width: 800px) {
+    .pictures-container .item:hover .item-layer {
+        background-color: rgba(15, 15, 15, .5);
+    }
+
+    .pictures-container .item:hover .item-text {
+        opacity: 1;
+    }
 }
 
-.pictures-container .item:hover .item-text {
-    opacity: 1;
+@media screen and (max-width: 800px) {
+    .pictures-container .item {
+        cursor: default;
+    }
 }
 
 /* Modal */
@@ -372,6 +380,7 @@ a:hover {
     width: 2em;
     height: 1px;
     background-color: #888;
+    transition: background-color .3s;
 }
 
 .modal-close::before {
@@ -403,11 +412,9 @@ a:hover {
     }
 
     .modal-close {
-        top: 40px;
+        top: 50px;
         right: 40px;
-        font-size: 2em;
-        color: #fff;
-        background-color: #888;
+        transform: translateY(-50%);
         border-radius: 50%;
     }
 }
