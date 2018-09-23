@@ -357,26 +357,36 @@ a:hover {
 }
 
 .modal-close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top: 30px;
     right: 70px;
-    width: 1em;
-    height: 1em;
-    padding-bottom: .2em; /* adjustment */
-    font-size: 3em;
-    font-weight: 300;
-    color: #888;
-    transition: color .2s;
+    padding: 1em;
+    cursor: pointer;
 }
 
-.modal-close:hover,
-.modal-close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+.modal-close::before,
+.modal-close::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2em;
+    height: 1px;
+    background-color: #888;
+}
+
+.modal-close::before {
+    transform: rotate(-45deg);
+}
+
+.modal-close::after {
+    transform: rotate(45deg);
+}
+
+.modal-close:hover::before,
+.modal-close:hover::after,
+.modal-close:focus::before,
+.modal-close:focus::after {
+    background-color: #000;
 }
 
 @media screen and (max-width: 800px) {

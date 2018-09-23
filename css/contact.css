@@ -26,16 +26,23 @@
 a.detail-content {
     position: relative;
     text-decoration: none;
+    color: currentColor;
 }
 
 a.detail-content::after {
     content: '';
+    display: block;
     position: absolute;
     left: 0;
     bottom: -.2em;
     width: 100%;
     height: 1px;
     background-color: currentColor;
+    transition: transform .2s;
+}
+
+a.detail-content:hover::after {
+    transform: scaleX(.9);
 }
 
 @media screen and (max-width: 800px) {
