@@ -1,0 +1,8 @@
+.video-container {
+    width: 100%;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}

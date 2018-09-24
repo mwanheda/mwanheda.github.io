@@ -13,7 +13,7 @@
 
     <title>
         {% if page.title %}
-        {{ page.title }} ·
+        {{ page.title | downcase }} ·
         {% endif %}
         {{ site.title }}
     </title>
@@ -25,5 +25,7 @@
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/contact.css"/>
+    {% if page.style %} <!-- Page style -->
+    <link rel="stylesheet" type="text/css" href="/css/{{ page.style }}"/>
+    {% endif %}
 </head>
