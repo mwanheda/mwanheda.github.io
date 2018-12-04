@@ -150,13 +150,6 @@ a:hover {
     justify-content: center;
 }
 
-.nav-item {
-    padding: 0 2em;
-    font-weight: 300;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-}
-
 .nav-item:first-child {
     padding-left: 0;
 }
@@ -167,6 +160,9 @@ a:hover {
 
 .nav-link {
     position: relative;
+    margin: 0 2em;
+    font-weight: 300;
+    text-transform: lowercase;
     color: #888;
     text-decoration: none;
     transition: color .3s;
