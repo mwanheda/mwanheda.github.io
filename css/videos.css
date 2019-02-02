@@ -1,8 +1,27 @@
-.video-container {
-    width: 100%;
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
 }
 
-.video-container video {
+.video-container {
+    position: relative;
+    margin: 0;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 size in percentage */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .videos {
+        grid-template-columns: 1fr;
+    }
 }

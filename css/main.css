@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400');
+
 *, *::before, *::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -9,15 +11,14 @@ html, body {
 }
 
 html {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-    sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .master {

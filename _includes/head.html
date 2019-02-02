@@ -12,10 +12,10 @@
     <meta property="og:image:alt" content=""/>
 
     <title>
-        {% if page.title %}
-        {{ page.title | downcase }} ·
-        {% endif %}
         {{ site.title }}
+        {% if page.title %}
+        · {{ page.title | downcase }}
+        {% endif %}
     </title>
 
     <link rel="icon" type="image/png" href="/images/icons/favicon.png"/>
