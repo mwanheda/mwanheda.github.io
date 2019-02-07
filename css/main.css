@@ -151,17 +151,12 @@ a:hover {
     justify-content: center;
 }
 
-.nav-item:first-child {
-    padding-left: 0;
-}
-
-.nav-item:last-child {
-    padding-right: 0;
+.nav-item:not(:first-of-type) {
+    margin-left: 4rem;
 }
 
 .nav-link {
     position: relative;
-    margin: 0 2em;
     font-weight: 300;
     text-transform: lowercase;
     color: #888;
