@@ -233,9 +233,9 @@ a:hover {
         flex-direction: column;
     }
 
-    .nav-item {
-        margin: .8em 0;
-        padding: 0;
+    .nav-item:not(:first-of-type) {
+        margin-top: 1.5rem;
+        margin-left: 0;
     }
 }
 
