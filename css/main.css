@@ -89,7 +89,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2em 3em;
+    padding: 2rem;
     background-color: #fff;
 }
 
@@ -157,6 +157,7 @@ a:hover {
 
 .nav-link {
     position: relative;
+    padding: 0;
     font-weight: 300;
     text-transform: lowercase;
     color: #888;
@@ -176,12 +177,12 @@ a:hover {
     transition: opacity .3s;
 }
 
-.current .nav-link,
+.active .nav-link,
 .nav-link:hover {
     color: currentColor;
 }
 
-.current .nav-link::after,
+.active .nav-link::after,
 .nav-link:hover::after {
     opacity: 1;
 }
@@ -242,6 +243,7 @@ a:hover {
 /* Photos */
 
 .pictures-container {
+    margin: 1rem;
     overflow: hidden;
 }
 
@@ -249,6 +251,7 @@ a:hover {
     float: left;
     position: relative;
     overflow: hidden;
+    margin: 1rem;
     background-color: #f1f2f3;
     box-sizing: content-box;
     cursor: pointer;

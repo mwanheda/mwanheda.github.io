@@ -1,15 +1,15 @@
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description"
-          content=""/>
+          content="" />
 
     <!-- Open Graph -->
-    <meta property="og:description" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:image:type" content="image/png"/>
-    <meta property="og:image:alt" content=""/>
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="" />
 
     <title>
         {{ site.title }}
@@ -18,19 +18,21 @@
         {% endif %}
     </title>
 
-    <link rel="icon" type="image/png" href="/images/icons/favicon.png"/>
+    <link rel="icon" type="image/png" href="/images/icons/favicon.png" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
           rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous">
 
     <!-- Custom style -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
     {% if page.style %} <!-- Page style -->
-    <link rel="stylesheet" type="text/css" href="/css/{{ page.style }}"/>
+    <link rel="stylesheet" type="text/css" href="/css/{{ page.style }}" />
     {% endif %}
 </head>
