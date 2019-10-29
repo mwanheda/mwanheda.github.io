@@ -1,0 +1,30 @@
+// Header
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5%;
+  background-color: #fff;
+}
+
+.header__title {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  text-transform: lowercase;
+  color: #000;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__title {
+    order: 1;
+  }
+}

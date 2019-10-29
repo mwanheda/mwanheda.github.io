@@ -1,10 +1,15 @@
 # Site settings
-title: "méline querré"
-description: ""
+title: "Méline Querré"
+description: "Portfolio de Méline Querré"
 baseurl: ""
-url: "https://mwanheda.github.io"  # absolute url
+url: "https://mwanheda.github.io"
 
 # Build settings
-include: ["_pages"]  # include more files
+include:
+  - _pages
+  - _base.scss
+  - _videos.scss
+  - _header.scss
+  - _nav.scss
 kramdown:
   input: GFM
