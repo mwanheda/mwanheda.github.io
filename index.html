@@ -5,19 +5,19 @@ script: photos.js
 ---
 
 <div class="pictures-container">
-    {% for picture in site.data.pictures %}
-    <div class="item"
-         data-w="{{ picture.width }}" data-h="{{ picture.height }}">
-        <img class="item-image"
-             src="/images/pictures/{{ picture.title }}" alt="{{ picture.alt }}">
-        <div class="item-layer"></div>
-        <div class="item-text">— voir —</div>
-    </div>
-    {% endfor %}
+  {% for picture in site.data.pictures %}
+  <div class="item"
+       data-w="{{ picture.width }}" data-h="{{ picture.height }}">
+    <img class="item-image"
+         src="/images/pictures/{{ picture.title }}" alt="{{ picture.alt }}">
+    <div class="item-layer"></div>
+    <div class="item-text">— voir —</div>
+  </div>
+  {% endfor %}
 </div>
 
 <div id="modal" class="modal">
-    <span id="modal-close" class="modal-close"></span>
-    <img id="modal-image" class="modal-image" src="">
-    <div id="modal-caption" class="modal-caption"></div>
+  <span id="modal-close" class="modal-close"></span>
+  <img id="modal-image" class="modal-image" src="">
+  <div id="modal-caption" class="modal-caption"></div>
 </div>

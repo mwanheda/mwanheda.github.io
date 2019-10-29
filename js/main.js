@@ -1,5 +1,7 @@
-$(document).ready(function () {
-    $(".hamburger-container").on("click", function () {
-        $(this).parent().toggleClass("active");
-    })
+'use strict';
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.hamburger-container').addEventListener('click', function (e) {
+        e.parentElement.classList.toggle('active');
+    });
 });
