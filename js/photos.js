@@ -1,17 +1,17 @@
 $(document).ready(function () {
-    $('.pictures-container').flexImages({rowHeight: 500});
-
-    /* Display the modal when the user clicks on an item (image) */
-    $('.item').on('click', function () {
-        $('body').css('overflow', 'hidden');
-        $('#modal').css('display', 'block');
-        $('.modal-image').attr('src', $(this).find('img').attr('src'));
-        $('#modal-caption').text($(this).find('img').attr('alt'));
+    // Init Masonry
+    let $grid = $('.masonry-grid').masonry({
+        columnWidth: '.masonry-grid-sizer',
+        gutter: '.masonry-gutter-sizer',
+        itemSelector: '.masonry-grid-item',
+        percentPosition: false,
+        horizontalOrder: true,
+        fitWidth: true
     });
 
-    /* Close the modal when the user clicks on the close button (x)*/
-    $('#modal-close').on('click', function () {
-        $('body').css('overflow', 'scroll');
-        $('#modal').css('display', 'none');
+    // Layout Masonry after each image loads
+    $grid.imagesLoaded().progress(function () {
+        $grid.masonry();
     });
+
 });

@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .master {
@@ -31,16 +31,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-a, a:visited {
-    color: #888;
 }
 
 a:hover {
@@ -56,7 +46,6 @@ a:hover {
 .heading-5,
 .heading-6 {
     margin-bottom: 3rem;
-    font-weight: 200;
 }
 
 .heading-1 {
@@ -89,7 +78,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 4%;
     background-color: #fff;
 }
 
@@ -158,7 +147,6 @@ a:hover {
 .nav-link {
     position: relative;
     padding: 0;
-    font-weight: 300;
     text-transform: lowercase;
     color: #888;
     text-decoration: none;
@@ -188,15 +176,10 @@ a:hover {
 }
 
 .site-title {
-    font-size: 2em;
-    font-weight: 300;
-    letter-spacing: .1em;
+    font-weight: 400;
+    color: currentColor;
     text-transform: lowercase;
-    color: #000;
-}
-
-.site-title-link {
-    text-decoration: none;
+    letter-spacing: .1em;
 }
 
 @media screen and (min-width: 800px) {
@@ -242,30 +225,42 @@ a:hover {
 
 /* Photos */
 
-.pictures-container {
-    margin: 1rem;
+.masonry-grid {
+    margin: 0 auto;
     overflow: hidden;
 }
 
-.pictures-container .item {
-    float: left;
-    position: relative;
-    overflow: hidden;
-    margin: 1rem;
+.masonry-grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.masonry-grid-sizer,
+.masonry-grid-item {
+    width: 24%;
+}
+
+.masonry-gutter-sizer {
+    width: .5%;
+}
+
+.masonry-grid-item {
+    margin-bottom: .5%;
     background-color: #f1f2f3;
     box-sizing: content-box;
+    overflow: hidden;
     cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
-    .pictures-container .item {
-        width: 100% !important;
-        height: auto !important;
+    .masonry-grid-sizer, .masonry-grid-item {
+        width: 48%;
     }
 }
 
-.pictures-container .item-image {
-    position: relative;
+.masonry-grid .item-image {
+    /*position: relative;*/
     display: block;
     width: 100%;
     height: 100%;
@@ -287,7 +282,6 @@ a:hover {
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-    font-weight: 300;
     letter-spacing: .1em;
     color: #fff;
     opacity: 0;
@@ -296,17 +290,17 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
-    .pictures-container .item:hover .item-layer {
+    .masonry-grid-item:hover .item-layer {
         background-color: rgba(15, 15, 15, .5);
     }
 
-    .pictures-container .item:hover .item-text {
+    .masonry-grid-item:hover .item-text {
         opacity: 1;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .pictures-container .item {
+    .masonry-grid-item {
         cursor: default;
     }
 }
@@ -419,10 +413,6 @@ a:hover {
 
 .page-content {
     padding: 5em 10em;
-}
-
-.page-content p {
-    font-weight: 300;
 }
 
 @media screen and (max-width: 800px) {

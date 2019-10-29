@@ -4,14 +4,13 @@ id: home
 script: photos.js
 ---
 
-<div class="pictures-container">
+<div class="masonry-grid">
+    <div class="masonry-grid-sizer"></div>
+    <div class="masonry-gutter-sizer"></div>
     {% for picture in site.data.pictures %}
-    <div class="item"
-         data-w="{{ picture.width }}" data-h="{{ picture.height }}">
+    <div class="masonry-grid-item">
         <img class="item-image"
              src="/images/pictures/{{ picture.title }}" alt="{{ picture.alt }}">
-        <div class="item-layer"></div>
-        <div class="item-text">— voir —</div>
     </div>
     {% endfor %}
 </div>

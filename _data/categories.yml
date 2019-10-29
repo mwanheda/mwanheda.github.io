@@ -6,6 +6,6 @@
   url: /videos
   id: videos
 
-- title: À propos
-  url: /about
-  id: about
+- title: Contact
+  url: /contact
+  id: contact
