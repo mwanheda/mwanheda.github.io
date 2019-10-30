@@ -8,8 +8,10 @@ url: "https://mwanheda.github.io"
 include:
   - _pages
   - _base.scss
-  - _videos.scss
+  - _mixins.scss
+  - _variables.scss
   - _header.scss
   - _nav.scss
+  - _video.scss
 kramdown:
   input: GFM

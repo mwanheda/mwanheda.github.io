@@ -1,4 +1,4 @@
-// Videos
+// Video
 
 .videos {
   display: grid;
@@ -23,7 +23,7 @@
   border: 0;
 }
 
-@media (max-width: 800px) {
+@include media(sm) {
   .videos {
     grid-template-columns: 1fr;
   }

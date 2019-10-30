@@ -2,29 +2,32 @@
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
+  margin-bottom: 3rem;
   padding: 2rem 5%;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .header__title {
   font-size: 2rem;
-  letter-spacing: .1rem;
+  letter-spacing: .05em;
+  text-align: center;
   text-transform: lowercase;
-  color: #000;
+
+  @include media(sm) {
+    font-size: 1.5rem;
+  }
 }
 
 .header__link {
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@include media(sm) {
   .header {
-    flex-direction: column;
-  }
-
-  .header__title {
-    order: 1;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }

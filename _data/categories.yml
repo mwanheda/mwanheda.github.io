@@ -1,7 +1,7 @@
 - id: home
-  title: Photos
+  title: Photo
   url: /
 
-- id: videos
-  title: Vidéos
-  url: /videos
+- id: video
+  title: Vidéo
+  url: /video
