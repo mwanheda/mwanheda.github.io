@@ -14,7 +14,7 @@
           {% for subcategory in category.subcategories %}
           <li class="nav__item">
             <a class="nav__link{% if page.subcategory_id == subcategory.id %} active{% endif %}"
-               href="{{ category.url }}/{{ subcategory.id }}">{{ subcategory.title }}</a>
+               href="/photo/{{ subcategory.id }}">{{ subcategory.title }}</a>
           </li>
           {% endfor %}
         </ul>

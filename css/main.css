@@ -139,8 +139,14 @@ a, a:visited {
   flex-direction: column;
   align-items: flex-end;
   margin-top: 0.5rem;
+  overflow: hidden;
 }
+.open.nav__item > .nav__list {
+  display: flex;
+}
+
 .nav__item > .nav__list .nav__item {
+  display: inline-block;
   margin-right: 0;
 }
 .nav__item > .nav__list .nav__item:not(:last-of-type) {
@@ -154,10 +160,6 @@ a, a:visited {
     position: static;
     margin-bottom: 0.5rem;
   }
-}
-
-.open > .nav__list {
-  display: flex;
 }
 
 .nav__link {
