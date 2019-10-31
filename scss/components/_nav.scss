@@ -2,24 +2,78 @@
 
 .nav__list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.nav__item:not(:last-of-type) {
-  margin-right: 4rem;
+.nav__item {
+  position: relative;
+  text-align: right;
+
+  &:not(:last-of-type) {
+    margin-right: 4rem;
+
+    @include media(sm) {
+      margin-right: 0;
+      margin-bottom: .8rem;
+    }
+  }
+}
+
+.nav__item > .nav__list {
+  display: none;
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: .5rem;
+
+  .nav__item {
+    margin-right: 0;
+
+    &:not(:last-of-type) {
+      margin-bottom: .3rem;
+    }
+  }
+
+  .nav__link {
+    white-space: nowrap;
+  }
 
   @include media(sm) {
-    margin-right: 0;
-    margin-bottom: .8rem;
+    position: static;
+    margin-bottom: .5rem;
   }
+}
+
+.open > .nav__list {
+  display: flex;
 }
 
 .nav__link {
   position: relative;
   padding: 0;
+  text-transform: lowercase;
   text-decoration: none;
   opacity: .5;
   transition: opacity .3s;
+}
+
+.nav__link.has-more {
+  &::before {
+    content: 'add';
+    display: inline-block;
+    margin-right: .2rem;
+    font-family: 'Material Icons';
+    vertical-align: middle;
+    text-transform: none;
+    transition: transform .2s;
+    transform-origin: center;
+    -webkit-font-smoothing: antialiased;
+
+    .open & {
+      transform: rotate(45deg);
+    }
+  }
 }
 
 .nav__link.active,

@@ -1,8 +1,11 @@
 ---
-layout: default
 id: home
+layout: default
+title: Photo
 script: photos.js
 ---
+
+<h2 class="page-title">{{ page.title }}</h2>
 
 <div class="pictures-container">
   {% for picture in site.data.pictures %}

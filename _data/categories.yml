@@ -1,7 +1,17 @@
 - id: home
   title: Photo
   url: /
-
+  subcategories:
+    - id: portait
+      title: Portrait
+    - id: heroes
+      title: Heroes
+    - id: stay-cool
+      title: Stay cool
+    - id: inside
+      title: Inside
+    - id: outside
+      title: Outside
 - id: video
   title: Vidéo
   url: /video

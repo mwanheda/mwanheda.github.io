@@ -115,9 +115,13 @@ a, a:visited {
 }
 .nav__list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
+.nav__item {
+  position: relative;
+  text-align: right;
+}
 .nav__item:not(:last-of-type) {
   margin-right: 4rem;
 }
@@ -128,12 +132,56 @@ a, a:visited {
   }
 }
 
+.nav__item > .nav__list {
+  display: none;
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 0.5rem;
+}
+.nav__item > .nav__list .nav__item {
+  margin-right: 0;
+}
+.nav__item > .nav__list .nav__item:not(:last-of-type) {
+  margin-bottom: 0.3rem;
+}
+.nav__item > .nav__list .nav__link {
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .nav__item > .nav__list {
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.open > .nav__list {
+  display: flex;
+}
+
 .nav__link {
   position: relative;
   padding: 0;
+  text-transform: lowercase;
   text-decoration: none;
   opacity: 0.5;
   transition: opacity 0.3s;
+}
+
+.nav__link.has-more::before {
+  content: "add";
+  display: inline-block;
+  margin-right: 0.2rem;
+  font-family: "Material Icons";
+  vertical-align: middle;
+  text-transform: none;
+  transition: transform 0.2s;
+  transform-origin: center;
+  -webkit-font-smoothing: antialiased;
+}
+.open .nav__link.has-more::before {
+  transform: rotate(45deg);
 }
 
 .nav__link.active,

@@ -1,7 +1,11 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.hamburger-container').addEventListener('click', function (e) {
-        e.currentTarget.parentNode.classList.toggle('active');
+  var hasMores = document.querySelectorAll('.js-has-more');
+  hasMores.forEach(function (hasMore) {
+    hasMore.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.currentTarget.parentElement.classList.toggle('open');
     });
+  });
 });

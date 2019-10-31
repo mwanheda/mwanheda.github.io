@@ -1,13 +1,24 @@
 <header class="header">
   <h1 class="header__title">
-      <a class="header__link" href="/">Méline Querré</a>
+    <a class="header__link" href="/">Méline Querré</a>
   </h1>
 
   <nav class="nav header__nav">
     <ul class="nav__list">
       {% for category in site.data.categories %}
       <li class="nav__item">
-        <a class="nav__link{% if page.id == category.id %} active{% endif %}" href="{{ category.url }}">{{ category.title }}</a>
+        <a class="nav__link{% if category.subcategories %} has-more js-has-more{% endif %}{% if page.id == category.id %} active{% endif %}"
+           href="{{ category.url }}">{{ category.title }}</a>
+        {% if category.subcategories %}
+        <ul class="nav__list js-nav-list">
+          {% for subcategory in category.subcategories %}
+          <li class="nav__item">
+            <a class="nav__link{% if page.subcategory_id == subcategory.id %} active{% endif %}"
+               href="{{ category.url }}/{{ subcategory.id }}">{{ subcategory.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>
