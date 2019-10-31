@@ -168,7 +168,7 @@ a, a:visited {
   text-transform: lowercase;
   text-decoration: none;
   opacity: 0.5;
-  transition: opacity 0.3s;
+  transition: opacity 0.2s;
 }
 
 .nav__link.has-more::before {

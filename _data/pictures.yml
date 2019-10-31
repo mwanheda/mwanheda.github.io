@@ -1,64 +1,80 @@
-- title: smoke.jpg
+- name: Norbert Hardy
+  img: smoke.jpg
   width: 2730
   height: 4096
-  alt: Norbert Hardy
-- title: lena.jpg
+  type: portrait
+- name: Léna
+  img: lena.jpg
   width: 4096
   height: 2730
-  alt: Léna
-- title: lena_bulles.jpg
+  type: portrait
+- name: Léna
+  img: lena_bulles.jpg
   width: 2730
   height: 4096
-  alt: Léna
-- title: colore_caen.jpg
+  type: portrait
+- name: Colore Caen
+  img: colore_caen.jpg
   width: 1280
   height: 854
-  alt: Colore Caen
-- title: colore_caen02.jpg
+  type: outside
+- name: Colore Caen
+  img: colore_caen02.jpg
   width: 4096
   height: 2730
-  alt: Colore Caen
-- title: dime.jpg
+  type: outside
+- name: Skate
+  img: dime.jpg
   width: 2000
   height: 3000
-  alt: Skate
-- title: dime02.jpg
+  type: outside
+- name: Skate
+  img: dime02.jpg
   width: 2000
   height: 3000
-  alt: Skate
-- title: film.jpg
+  type: outside
+- name: Skate
+  img: film.jpg
   width: 2000
   height: 3000
-  alt: Skate
-- title: skate.jpg
+  type: inside
+- name: Skate
+  img: skate.jpg
   width: 2000
   height: 3000
-  alt: Skate
-- title: skate02.jpg
+  type: outside
+- name: Skate
+  img: skate02.jpg
   width: 2000
   height: 3000
-  alt: Skate
-- title: skate03.jpg
+  type: outside
+- name: Skate
+  img: skate03.jpg
   width: 2000
   height: 3000
-  alt: Skate
-- title: surf.jpg
+  type: outside
+- name: Surf
+  img: surf.jpg
   width: 2730
   height: 4096
-  alt: Surf
-- title: sunset.jpg
+  type: heroes
+- name: Sunset
+  img: sunset.jpg
   width: 2730
   height: 4096
-  alt: Sunset
-- title: emile.JPG
+  type: outside
+- name: Emile
+  img: emile.jpg
   width: 2000
   height: 3000
-  alt: Emile
-- title: parisnb.jpg
+  type: portrait
+- name: Myself
+  img: parisnb.jpg
   width: 5184
   height: 3456
-  alt: Myself
-- title: ghost.JPG
+  type: portrait
+- name: Ghost
+  img: ghost.JPG
   width: 2000
   height: 3000
-  alt: Ghost
+  type: outside
