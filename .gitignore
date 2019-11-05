@@ -1,7 +1,14 @@
-# System
-.DS_Store
+# dependencies
+node_modules
+
+# Nuxt build
+.nuxt
+
+# dist folders
+dist
+
+# IDE
 .idea
 
-# Jekyll
-_site/
-
+# macOS
+.DS_Store

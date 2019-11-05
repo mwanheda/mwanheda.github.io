@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.pictures-container').flexImages({rowHeight: 500});
+    $('.photos-container').flexImages({rowHeight: 500});
 
     /* Display the modal when the user clicks on an item (image) */
     $('.item').on('click', function () {

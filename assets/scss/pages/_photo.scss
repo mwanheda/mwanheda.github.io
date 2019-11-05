@@ -1,0 +1,29 @@
+// Photo
+
+.no-photos {
+  display: flex;
+  justify-content: center;
+}
+
+.photos {
+  // clear fix:
+  .grid::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 33.33%;
+  }
+
+  .grid-item {
+    float: left;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+}

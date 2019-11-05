@@ -1,0 +1,24 @@
+{
+  "name": "melinequerre",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "category_id": "git",
+    "url": "git+https://github.com/mwanheda/mwanheda.github.io.git"
+  },
+  "keywords": [],
+  "author": "Maël Querré",
+  "dependencies": {
+    "masonry-layout": "^4.2.2",
+    "nuxt": "^2.10.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}

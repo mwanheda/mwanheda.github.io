@@ -1,0 +1,33 @@
+// Header
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 2rem 5%;
+  background-color: $white;
+}
+
+.header__title {
+  font-size: 2rem;
+  letter-spacing: .05em;
+  text-align: center;
+  text-transform: lowercase;
+
+  @include media(sm) {
+    font-size: 1.5rem;
+  }
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+@include media(sm) {
+  .header {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
