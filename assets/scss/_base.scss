@@ -20,9 +20,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.main {
-  flex: 1 0 auto;
-  padding: 0 5%;
+main {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Default parameters */
@@ -54,31 +54,30 @@ a, a:visited {
 
 .footer {
   flex-shrink: 0;
-  padding: 5em 5%;
+  padding: 5rem 5%;
 }
 
-.social-list {
+.footer__icons {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin: auto;
   width: fit-content;
 }
 
-.social-item {
-  margin: 0 1em;
-}
-
-.social-link {
+.footer__icon {
   display: block;
-  width: 1.5em;
+  width: 1.5rem;
   transition: opacity .3s;
-}
 
-.social-link:hover {
-  opacity: .5;
-}
+  &:not(:last-child) {
+    margin-right: 3rem;
+  }
 
-.social-link img {
-  width: 100%;
+  &:hover {
+    opacity: .5;
+  }
+
+  img {
+    width: 100%;
+  }
 }

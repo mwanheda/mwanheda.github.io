@@ -1,18 +1,14 @@
 <template>
-    <footer class="footer">
-        <ul class="social-list">
-            <li class="social-item">
-                <a class="social-link" href="https://vsco.co/melinequerre/images/1">
-                    <img src="/static/images/icons/vsco.svg" alt="vsco logo">
-                </a>
-            </li>
-            <li class="social-item">
-                <a class="social-link" href="https://www.instagram.com/meline_rl/">
-                    <img src="/static/images/icons/instagram.svg" alt="intagram logo">
-                </a>
-            </li>
-        </ul>
-    </footer>
+  <footer class="footer">
+    <div class="footer__icons">
+      <a class="footer__icon" href="https://vsco.co/melinequerre/images/1">
+        <img src="/images/icons/vsco.svg" alt="VSCO logo">
+      </a>
+      <a class="footer__icon" href="https://www.instagram.com/meline_rl/">
+        <img src="/images/icons/instagram.svg" alt="Instagram logo">
+      </a>
+    </div>
+  </footer>
 </template>
 
 <script>

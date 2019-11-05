@@ -9,7 +9,13 @@ $white: #fff;
 // Breakpoints
 
 $breakpoints: (
-    sm: 640px,
-    md: 980px,
-    lg: 1264px
-)
+  sm: 640px,
+  md: 980px,
+  lg: 1264px
+);
+
+
+// Masonry
+
+$column-width: 32%;
+$gutter-width: (100% % $column-width) / (floor(100% / $column-width) - 1);

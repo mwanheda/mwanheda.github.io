@@ -1,44 +1,32 @@
 <template>
-    <div class="grid" v-masonry>
-        <div class="grid-sizer"></div>
-        <img v-for="photo in photos"
-             class="grid-item"
-             :alt="photo.title"
-             :src="'/images/photos/' + photo.src">
+  <client-only>
+    <div v-masonry
+         item-selector=".item"
+         gutter=".gutter"
+         horizontal-order="true"
+         transition-duration="0"
+         class="masonry">
+      <div class="gutter"></div>
+      <img v-masonry-tile
+           v-for="(photo, index) in photos"
+           class="item"
+           :alt="photo.title"
+           :key="index"
+           :src="'/images/photos/' + photo.src">
     </div>
+  </client-only>
 </template>
 
 <script>
-  // import Masonry from 'masonry-layout'
-
   export default {
     props: {
       photos: Array
     },
 
-    data() {
-      return {
-        masonry: ''
+    mounted() {
+      if (typeof this.$redrawVueMasonry === 'function') {
+        this.$redrawVueMasonry()
       }
-    },
-
-    directives: {
-      masonry: {
-        mounted: function (el) {
-          import('masonry-layout').then(
-            this.masonry = new Masonry(el, {
-              itemSelector: '.grid-item',
-              columnWidth: '.grid-sizer',
-              percentPosition: true
-            })
-          )
-          this.masonry.layout()
-        }
-      }
-    },
-
-    nextTick() {
-      this.masonry.layout()
     }
   }
 </script>

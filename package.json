@@ -15,7 +15,8 @@
   "author": "Maël Querré",
   "dependencies": {
     "masonry-layout": "^4.2.2",
-    "nuxt": "^2.10.2"
+    "nuxt": "^2.10.2",
+    "vue-masonry": "^0.11.8"
   },
   "devDependencies": {
     "node-sass": "^4.13.0",

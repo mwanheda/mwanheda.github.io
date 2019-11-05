@@ -1,11 +1,11 @@
 <template>
-    <div class="photos">
-        <p v-if="!photos.length"
-           class="no-photos">No photos yet in this category.</p>
+  <div class="photos">
+    <p v-if="!photos.length"
+       class="no-photos">No photos yet in this category.</p>
 
-        <Masonry v-else :photos="photos" />
+    <Masonry v-else :photos="photos" />
 
-    </div>
+  </div>
 </template>
 
 <script>

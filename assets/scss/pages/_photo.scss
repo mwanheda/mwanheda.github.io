@@ -7,18 +7,22 @@
 
 .photos {
   // clear fix:
-  .grid::after {
+  .masonry::after {
     content: '';
     display: block;
     clear: both;
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 33.33%;
+  .gutter {
+    width: $gutter-width;
   }
 
-  .grid-item {
+  .item {
+    width: $column-width;
+    margin-bottom: $gutter-width;
+  }
+
+  .item {
     float: left;
 
     img {
