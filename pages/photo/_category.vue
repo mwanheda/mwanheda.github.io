@@ -4,7 +4,6 @@
        class="no-photos">No photos yet in this category.</p>
 
     <Masonry v-else :photos="photos" />
-
   </div>
 </template>
 
@@ -16,7 +15,15 @@
       Masonry
     },
 
+    data() {
+      return {
+        title: ''
+      }
+    },
+
     async asyncData({ params, payload }) {
+      // this.title = params.ca
+
       if (payload) {
         return {
           photos: payload

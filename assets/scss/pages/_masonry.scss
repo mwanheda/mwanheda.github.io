@@ -1,0 +1,40 @@
+// Masonry
+
+.masonry {
+  .gutter {
+    width: $gutter-width;
+  }
+
+  .item {
+    width: $column-width;
+    margin-bottom: $gutter-width;
+
+    @include media(lg) {
+      width: $column-width-lg;
+    }
+
+    @include media(md) {
+      width: $column-width-md;
+    }
+
+    @include media(sm) {
+      width: $column-width-sm;
+    }
+  }
+
+  .item {
+    float: left;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  // clear fix:
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}

@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: develop
+
+media_folder: /static/images/photos
+public_folder: /images/photos
+
+collections:
+  - name: "content"
+    label: "Content"
+    files:
+      - name: "photos"
+        label: "Photos"
+        label_singular: "Photo"
+        file: "content/photos.json"
+        format: 'json'
+        fields:
+          - label: Photos,
+            name: photos,
+            widget: list,
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: File name, name: src, widget: markdown }
+              - { label: Width, name: width, widget: number }
+              - { label: Height, name: height, widget: number }
+              - { label: Category, name: category_id, widget: select, options: [portrait, heroes, stay-cool, inside, outside] }

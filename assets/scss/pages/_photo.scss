@@ -4,30 +4,3 @@
   display: flex;
   justify-content: center;
 }
-
-.photos {
-  // clear fix:
-  .masonry::after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
-  .gutter {
-    width: $gutter-width;
-  }
-
-  .item {
-    width: $column-width;
-    margin-bottom: $gutter-width;
-  }
-
-  .item {
-    float: left;
-
-    img {
-      display: block;
-      max-width: 100%;
-    }
-  }
-}

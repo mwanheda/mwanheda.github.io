@@ -1,0 +1,39 @@
+[
+  {
+    "path": "/photo",
+    "name": "photo",
+    "title": "Photo",
+    "children": [
+      {
+        "path": "/portait",
+        "name": "portait",
+        "title": "Portrait"
+      },
+      {
+        "path": "/heroes",
+        "name": "heroes",
+        "title": "Heroes"
+      },
+      {
+        "path": "/stay-cool",
+        "name": "stay-cool",
+        "title": "Stay cool"
+      },
+      {
+        "path": "/inside",
+        "name": "inside",
+        "title": "Inside"
+      },
+      {
+        "path": "/outside",
+        "name": "outside",
+        "title": "Outside"
+      }
+    ]
+  },
+  {
+    "path": "/video",
+    "name": "video",
+    "title": "Video"
+  }
+]

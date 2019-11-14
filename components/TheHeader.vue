@@ -7,7 +7,7 @@
         <nav class="nav header__nav">
             <ul class="nav__list">
                 <li class="nav__item"
-                    v-for="category in categories">
+                    v-for="(category, index) in categories" :key="index">
                     <a :href="'/' + category.id"
                        @click="openSubmenu($event, category)"
                        class="nav__link">{{ category.title }}</a>

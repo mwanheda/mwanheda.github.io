@@ -4,7 +4,6 @@
          item-selector=".item"
          gutter=".gutter"
          horizontal-order="true"
-         transition-duration="0"
          class="masonry">
       <div class="gutter"></div>
       <img v-masonry-tile
