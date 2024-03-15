@@ -1,7 +1,15 @@
-- title: Climb.jpg
-  width: 4096
-  height: 2730
-  alt: Climb
+- title: Forest.jpg
+  width: 5184
+  height: 2912
+  alt: Forest
+- title: Game.JPG
+  width: 2912
+  height: 5184
+  alt: Surf game
+- title: Bordeaux.jpg
+  width: 5184
+  height: 2912
+  alt: Bordeaux
 - title: Tree.JPG
   width: 2912
   height: 5184
