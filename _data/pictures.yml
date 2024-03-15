@@ -9,7 +9,7 @@
   - title: Map.JPG
   width: 4096
   height: 2730
-    alt: Map
+  alt: Map
 - title: Forest.JPG
   width: 5184
   height: 2912
@@ -25,7 +25,7 @@
   - title: Climb.jpg
   width: 4096
   height: 2730
-    alt: Climb
+  alt: Climb
 - title: Tree.JPG
   width: 2912
   height: 5184
