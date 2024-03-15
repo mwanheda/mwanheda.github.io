@@ -5,4 +5,5 @@ permalink: /about
 id: about
 ---
 
-Prochainement.
+Fraîchement diplômée d’un Master Universitaire en Nouveaux Médias, passionnée d’audiovisuel, de photographie et de création de contenus.
+Sportive et voyageuse, avec un oeil particulièrement sensible aux lumières, aux couleurs, aux regards et aux émotions que transmet l’image.
