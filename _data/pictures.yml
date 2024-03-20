@@ -1,3 +1,11 @@
+- title: maelle2.jpg
+  width: 2688
+  height: 4032
+  alt: Maëlle au BBC
+- title: maelle1.jpg
+  width: 2688
+  height: 4032
+  alt: Maëlle au BBC
 - title: Tahiti.JPG
   width: 5184
   height: 2912
@@ -34,7 +42,7 @@
   width: 5184
   height: 2912
   alt: Auckland
-  - title: remarkables.JPG
+- title: remarkables.JPG
   width: 2912
   height: 5184
   alt: Remarkables
