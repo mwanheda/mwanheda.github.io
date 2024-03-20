@@ -1,7 +1,35 @@
+- title: morning.jpg
+  width: 2730
+  height: 4096
+  alt: Les matins comme ça
+- title: trois.JPG
+  width: 5184
+  height: 2912
+  alt: Trois
+- title: Shot.JPG
+  width: 5184
+  height: 2912
+  alt: Shot
+- title: coffre.JPG
+  width: 5184
+  height: 2912
+  alt: Coffre
+- title: red.jpg
+  width: 2730
+  height: 4096
+  alt: Red lights
 - title: NZ.JPG
   width: 5184
   height: 2912
-  alt: Bordeaux
+  alt: Auckland
+  - title: remarkables.JPG
+  width: 2912
+  height: 5184
+  alt: Remarkables
+- title: NZ.JPG
+  width: 5184
+  height: 2912
+  alt: Nouvelle-Zélande
 - title: Julianne.JPG
   width: 2730
   height: 4096
