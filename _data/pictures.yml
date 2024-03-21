@@ -6,7 +6,7 @@
   width: 2688
   height: 4032
   alt: Maëlle au BBC
-- title: julianne0.jpg
+- title: juliannev2.jpg
   width: 4096
   height: 2730
   alt: Julianne
@@ -26,10 +26,22 @@
   width: 5184
   height: 2912
   alt: Tahiti
+- title: portmanech.jpg
+  width: 5184
+  height: 2912
+  alt: Port Manec'h
+- title: pride.jpg
+  width: 3090
+  height: 4020
+  alt: Pride
 - title: trois.JPG
   width: 5184
   height: 2912
   alt: Trois
+- title: maelle.jpg
+  width: 5184
+  height: 2912
+  alt: Maëlle à la mer
 - title: Shot.JPG
   width: 5184
   height: 2912
