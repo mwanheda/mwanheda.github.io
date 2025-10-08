@@ -1,3 +1,23 @@
+- title: cinema.JPG
+  width: 7008
+  height: 4672
+  alt: Cinéma
+- title: anaelle.JPG
+  width: 4160
+  height: 6240
+  alt: Anaëlle
+- title: giverny.JPG
+  width: 4160
+  height: 6240
+  alt: Giverny
+- title: fuji.JPG
+  width: 4160
+  height: 6240
+  alt: Fujifilm
+- title: monet.JPG
+  width: 4160
+  height: 6240
+  alt: Monet
 - title: linkedin.JPG
   width: 7008
   height: 4672
@@ -10,10 +30,6 @@
   width: 2688
   height: 4032
   alt: Elsa Darquier
-- title: ernotte.JPG
-  width: 7008
-  height: 4672
-  alt: Delphine Ernotte
 - title: mogador.JPG
   width: 7008
   height: 4672
@@ -102,6 +118,18 @@
   width: 4672
   height: 7008
   alt: Florence Sandis
+- title: ghislaine.JPG
+  width: 4672
+  height: 7008
+  alt: Ghislaine
+- title: bergephoto.jpg
+  width: 7008
+  height: 4672
+  alt: Aurore Bergé
+- title: rojek.JPG
+  width: 4672
+  height: 7008
+  alt: Rojek
 - title: berge.jpg
   width: 7008
   height: 4672
