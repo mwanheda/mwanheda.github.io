@@ -1,7 +1,27 @@
+- title: run.JPG
+  width: 4160
+  height: 6240
+  alt: Run
+- title: figure.JPG
+  width: 5182
+  height: 2916
+  alt: Figure
+- title: weltman.JPG
+  width: 7008
+  height: 4672
+  alt: Tiffany Weltman
+- title: marjorie.JPG
+  width: 4672
+  height: 7008
+  alt: Marjorie Paillon
 - title: cinema.JPG
   width: 7008
   height: 4672
   alt: Cinéma
+- title: listen.JPG
+  width: 4672
+  height: 7008
+  alt: Écoute
 - title: anaelle.JPG
   width: 4160
   height: 6240
@@ -98,6 +118,10 @@
   width: 5184
   height: 3456
   alt: Léna
+- title: yellow.JPG
+  width: 3469
+  height: 6167
+  alt: Yellow
 - title: snow.JPG
   width: 4032
   height: 2718
@@ -122,7 +146,7 @@
   width: 4672
   height: 7008
   alt: Ghislaine
-- title: bergephoto.jpg
+- title: bergephoto.JPG
   width: 7008
   height: 4672
   alt: Aurore Bergé
@@ -134,6 +158,10 @@
   width: 7008
   height: 4672
   alt: Aurore Bergé
+- title: saintc.JPG
+  width: 5103
+  height: 2866
+  alt: La vue
 - title: maelle2.jpg
   width: 2730
   height: 4096
