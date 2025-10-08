@@ -1,11 +1,11 @@
-- title: max.JPG
-  width: 3512
-  height: 6240
-  alt: Max 
 - title: hike.JPG
   width: 6240
   height: 3512
   alt: Hike
+- title: max.JPG
+  width: 3512
+  height: 6240
+  alt: Max
 - title: maxime.JPG
   width: 6240
   height: 3512
@@ -18,26 +18,26 @@
   width: 6240
   height: 3512
   alt: Loomi
-- title: valentina.JPG
-  width: 3512
-  height: 6240
-  alt: Valentina 
 - title: purpleflower.JPG
   width: 6240
   height: 3512
   alt: Purple flower
+- title: valentina.JPG
+  width: 3512
+  height: 6240
+  alt: Valentina 
 - title: tree.JPG
   width: 6240
   height: 3512
   alt: Pink mountains sky
-- title: run.JPG
-  width: 4160
-  height: 6240
-  alt: Run
 - title: figure.jpg
   width: 5182
   height: 2916
   alt: Figure
+- title: run.JPG
+  width: 4160
+  height: 6240
+  alt: Run
 - title: weltman.JPG
   width: 7008
   height: 4672
