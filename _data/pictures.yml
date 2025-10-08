@@ -1,3 +1,35 @@
+- title: max.JPG
+  width: 3512
+  height: 6240
+  alt: Max 
+- title: hike.JPG
+  width: 6240
+  height: 3512
+  alt: Hike
+- title: maxime.JPG
+  width: 6240
+  height: 3512
+  alt: Maxime
+- title: pinksky.JPG
+  width: 6240
+  height: 3512
+  alt: Pink mountains sky
+- title: loomi.JPG
+  width: 6240
+  height: 3512
+  alt: Loomi
+- title: valentina.JPG
+  width: 3512
+  height: 6240
+  alt: Valentina 
+- title: purpleflower.JPG
+  width: 6240
+  height: 3512
+  alt: Purple flower
+- title: tree.JPG
+  width: 6240
+  height: 3512
+  alt: Pink mountains sky
 - title: run.JPG
   width: 4160
   height: 6240
@@ -30,10 +62,6 @@
   width: 4160
   height: 6240
   alt: Giverny
-- title: fuji.JPG
-  width: 4160
-  height: 6240
-  alt: Fujifilm
 - title: monet.JPG
   width: 4160
   height: 6240
@@ -149,7 +177,7 @@
 - title: bergephoto.JPG
   width: 7008
   height: 4672
-  alt: Aurore Bergé
+  alt: Aurore et Dominique
 - title: rojek.JPG
   width: 4672
   height: 7008
