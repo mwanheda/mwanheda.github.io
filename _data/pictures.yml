@@ -1,12 +1,32 @@
-- title: bench.JPG
-  width: 5184
-  height: 2912
-  alt: Le banc
+- title: linkedin.JPG
+  width: 7008
+  height: 4672
+  alt: LinkedIn
+- title: linkedin1.JPG
+  width: 7008
+  height: 4672
+  alt: LinkedIn
+- title: darquier.JPG
+  width: 2688
+  height: 4032
+  alt: Elsa Darquier
+- title: ernotte.JPG
+  width: 7008
+  height: 4672
+  alt: Delphine Ernotte
+- title: mogador.JPG
+  width: 7008
+  height: 4672
+  alt: Foyer du Théâtre Mogador
 - title: pinktree.JPG
   width: 2912
   height: 5184
   alt: Pink tree
-- title: view.JPG
+- title: bench.JPG
+  width: 5184
+  height: 2912
+  alt: Le banc
+- title: view.jpg
   width: 5184
   height: 2912
   alt: La vue
@@ -20,8 +40,12 @@
   alt: Eloïse
 - title: swing.JPG
   width: 5184
-  height: 2912
+  height: 3456
   alt: Swing
+- title: maud.JPG
+  width: 2912
+  height: 5184
+  alt: Maud
 - title: melinepacifique.JPG
   width: 4849
   height: 3232
